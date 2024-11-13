@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 30px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.main-content{
+  background-color: #ffffff;
+    color: #fff;
+    padding: 15px 30px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-cart{
+  background-color: #3e9cd3;
+    color: #fff;
+    padding: 15px 30px;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+
+.second-div{
+  flex-wrap: wrap;
+  background-color: #558a9fa6;
+    color: #fff;
+    padding: 15px 30px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(2, 2, 165, 0.1);
+    margin-bottom: 40px;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+}
+
+
+.second-div img{
+ width: 150px;
+ height: 200px;
+ border-radius: 10px;   
+}
+
+.cart{
+  margin-bottom: 5px;
+  background-color: #ffffff50;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+button{
+  background-color: #b3febed7;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
